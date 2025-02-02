@@ -137,7 +137,7 @@ class MiddlewarePipeline implements RequestHandlerInterface {
         return $this->process(0, $request);
     }
 
-    private function process(int $index, ServerRequestInterface $request): ResponseInterface {
+    public function process(int $index, ServerRequestInterface $request): ResponseInterface {
         if (isset($this->middleware[$index])) {
             return $this->middleware[$index]->process(
                 $request,
