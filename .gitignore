@@ -1,0 +1,38 @@
+# PHP
+/vendor/
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# IDE/Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.cursorrules
+*.swp
+*.swo
+.DS_Store
+
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+/var/cache/
+/var/log/
+*.log
+*.cache
+
+# Generated files
+/public/bundles/
+/public/uploads/
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+/tmp/
+
